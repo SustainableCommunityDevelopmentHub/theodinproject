@@ -10,7 +10,7 @@ gem 'devise',    '~> 3.2.4'          # For managing authentication
 gem 'figaro',     '~> 0.7.0'                    # Managing environment variables
 gem 'github_api', '~> 0.11.1' # to pull in the curriculum files
 gem 'thin', '~> 1.6.1' # to use the "thin" webserver instead of webrick
-gem 'redcarpet', '~> 3.0.0' # to render the curriculum's .md files as html
+gem 'redcarpet', '~> 3.5.1' # to render the curriculum's .md files as html
 gem 'will_paginate', '~> 3.0.5' # to paginate student lists
 gem 'protected_attributes', '~> 1.0.5'
 gem 'pg', '~> 0.17.1'
