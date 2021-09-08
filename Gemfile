@@ -38,7 +38,7 @@ end
 
 group :development do
   gem 'pry'
-  gem 'better_errors', '~> 1.1.0' # gives much better error messages for debug
+  gem 'better_errors', '~> 2.8.0' # gives much better error messages for debug
   gem 'quiet_assets', '~> 1.0.2'  # shortens up the server log output
   gem 'binding_of_caller', '~> 0.7.2' # helps out better_errors by giving you an interactive way to query variables and methods on the better_errors error screen
   gem 'letter_opener', '~> 1.2.0' # shows outgoing emails in your browser instead
